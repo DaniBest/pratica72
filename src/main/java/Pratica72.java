@@ -34,7 +34,7 @@ public class Pratica72 {
 
         File origem = new File(caminho);
         File destino = new File(caminhoChegada);
-        ContadorPalavras cp = new ContadorPalavras(origem);
+        ContadorPalavras cp = new ContadorPalavras(caminho);
         mapa = cp.getPalavras();
         
 

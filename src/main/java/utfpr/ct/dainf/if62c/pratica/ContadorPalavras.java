@@ -23,7 +23,15 @@ public class ContadorPalavras {
     private BufferedReader reader;
     
     public ContadorPalavras() {
+        
+    }
+    
+    public ContadorPalavras(String st) {
+        try {
+            reader = new BufferedReader(new FileReader(new File(st)));
+        } catch (IOException ioe) {
 
+        }
     }
 
     public ContadorPalavras(File fl) {
