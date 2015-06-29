@@ -63,5 +63,13 @@ public class ContadorPalavras {
         return mapaRetornado;
     }
 
+    public BufferedReader getReader() {
+        return reader;
+    }
+
+    public void setReader(BufferedReader reader) {
+        this.reader = reader;
+    }
+
     
 }
